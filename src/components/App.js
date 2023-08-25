@@ -10,10 +10,10 @@ const App = () => {
   }
   return (
     <div>
-        {/* Do not remove the main div */}
+        <h1>Sum Calculator</h1>
         <input type="number" placeholder="0"  onChange={additionFn}/>
 
-        <h1>Sum:{add}</h1>
+        <p>Sum:{add}</p>
     </div>
   )
 }
