@@ -13,7 +13,7 @@ const App = () => {
         <h1>Sum Calculator</h1>
         <input type="number" placeholder="0"  onChange={additionFn}/>
 
-        <p>Sum:{add}</p>
+        <p>Sum: {add}</p>
     </div>
   )
 }
